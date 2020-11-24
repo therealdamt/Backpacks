@@ -19,7 +19,7 @@ public class BackPack implements Listener {
         Player player = e.getPlayer();
         ItemStack item = player.getItemInHand();
 
-        if (item != null && item.getType().equals(Material.CHEST) && item.getItemMeta().getDisplayName().equals(Util.chat("&c&lEggshell's Backpack"))) {
+        if (item != null && item.getType().equals(Material.CHEST) && item.getItemMeta().getDisplayName().equals(Util.chat("&clBackpack"))) {
             if (e.getAction() == Action.RIGHT_CLICK_AIR) {
                 if (Main.getInstance().pvs.containsKey(player.getUniqueId().toString())) {
                     Inventory inv = Bukkit.createInventory(player, 9, player.getName() + "'s Backpack");
