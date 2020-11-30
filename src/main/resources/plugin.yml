@@ -2,6 +2,6 @@ main: me.damt.playervaults.Main
 name: Backpack
 version: 1.0
 author: damt
-description: a backpack plugin for shredder
+description: a backpack plugin for anyone <3
 commands:
   backpack:
